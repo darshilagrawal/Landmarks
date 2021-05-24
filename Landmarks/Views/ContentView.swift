@@ -24,8 +24,7 @@ struct ContentView: View {
                 .tabItem { Label("List",systemImage:"list.bullet") }
                 .tag(Tab.list)
         }
-        
-        LandmarkList()
+
     }
 }
 
